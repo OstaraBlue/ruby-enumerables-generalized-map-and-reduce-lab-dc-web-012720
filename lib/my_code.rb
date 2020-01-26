@@ -18,7 +18,7 @@ def reduce(source_array, starting_point =0)
       total += yield(total, source_array[counter])
       counter += 1 
     else 
-      total = yield(source_array[counter])
+      total = yield(total, source_array[counter])
     end
   end
   total
