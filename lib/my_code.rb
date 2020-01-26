@@ -11,7 +11,7 @@ end
 
 
 def reduce(source_array, starting_point = nil)
-   
+   statin
 
 end
   
