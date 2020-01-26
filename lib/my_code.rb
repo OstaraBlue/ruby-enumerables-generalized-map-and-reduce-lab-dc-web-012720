@@ -10,9 +10,9 @@ def map(source_array)
 end
 
 
-def reduce(source_array, starting_point =0)
+def reduce(source_array, starting_point = nil)
   counter = 0 
-  total = nil
+  total = starting_point
   while counter < source_array.count do
     if source_array.sum 
       total += yield(total, source_array[counter])
