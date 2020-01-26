@@ -11,7 +11,18 @@ end
 
 
 def reduce(source_array, starting_point = nil)
-   statin
-
+   if starting_point
+     num1 = starting_point
+     counter = 0 
+    else
+     num1 = source_array[0]
+     counter = 1 
+    end
+    
+    while counter < source_array.counter
+      sum = yield(sum, source_array[counter])
+      counter +=
+    end
+    sum
 end
   
