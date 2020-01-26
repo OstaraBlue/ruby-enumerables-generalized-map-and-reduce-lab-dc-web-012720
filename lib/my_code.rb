@@ -20,6 +20,7 @@ def reduce(source_array, starting_point =0)
   else 
     source_array[counter] = yield(source_array[counter])
   end
+  end
   total
 end
   
